@@ -1,0 +1,56 @@
+Vector1 = [1,2,3,4]
+Vector2 = [2,4,6,8]
+Vector3 = [3,6,9,12]
+Vector4 = [4,8,12,16]
+Vector5 = [5,10,15,20]
+Vector6 = [6,12,18,24]
+Vector7 = [7,14,21,28]
+Vector8 = [8,6,24,32]
+Vector9 = [9,18,27,36]
+Vector10 = [10,20,30,40]
+
+V1 = []
+V2 = []
+V3 = []
+V4 = []
+V5 = []
+
+print('The vectors in Vector 1', Vector1, 'and Vector 2', Vector2)
+for i in range(len(Vector1)):
+    IPF1 = Vector1[i] * Vector2[i]
+    V1.append(IPF1)
+print('Vector 1 * Vector 2 = ',V1)
+print('The Inner Product of Sum of Vector 1 and 2 = ',sum(V1))
+print('')
+print('∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼')
+print('The vectors in Vector 3', Vector3, 'and Vector 4', Vector3)
+for i in range(len(Vector3)):
+    IPF2 = Vector3[i] * Vector4[i]
+    V2.append(IPF2)
+print('Vector 3 * Vector 4 = ',V2)
+print('The Inner Product of Sum of Vector 3 and 4 = ',sum(V2))
+print('')
+print('∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼')
+print('The vectors in Vector 5', Vector5, 'and Vector 6', Vector6)
+for i in range(len(Vector3)):
+    IPF3 = Vector5[i] * Vector6[i]
+    V3.append(IPF3)
+print('Vector 5 * Vector 6 = ',V3)
+print('The Inner Product of Sum of Vector 5 and 6 = ', sum(V3))
+print('')
+print('∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼')
+print('The vectors in Vector 7', Vector7, 'and Vector 8', Vector8)
+for i in range(len(Vector7)):
+    IPF4 = Vector7[i] * Vector8[i]
+    V4.append(IPF4)
+print('Vector 7 * Vector 8 = ',V4)
+print('The Inner Product of Sum of Vector 7 and 8 = ',sum(V4))
+print('')
+print('∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼')
+print('The vectors in Vector 9', Vector9, 'and Vector 10', Vector10)
+for i in range(len(Vector9)):
+    IPF5 = Vector9[i] * Vector10[i]
+    V5.append(IPF5)
+print('Vector 9 * Vector 10 = ',V4)
+print('The Inner Product of Sum of Vector 9 and 10 = ',sum(V5))
+print('')
