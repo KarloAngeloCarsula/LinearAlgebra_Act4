@@ -1,0 +1,79 @@
+    Vector1 = [(1,2,3,4)]
+    Vector2 = [(2,4,6,8)]
+    Vector3 = [(3,6,9,12)]
+    Vector4 = [(4,8,12,16)]
+    Vector5 = [(5,10,15,20)]
+    Vector6 = [(6,12,18,24)]
+
+V1 =[]
+V2 =[]
+V3 =[]
+V4 =[]
+V5 =[]
+V6 =[]
+
+for Elements in Vector1:
+    for numbers in Elements:
+        sqrt = numbers ** 2
+        V1.append(sqrt)
+
+for Elements in Vector2:
+    for numbers in Elements:
+        sqrt = numbers ** 2
+        V2.append(sqrt)
+
+for Elements in Vector3:
+    for numbers in Elements:
+        sqrt = numbers ** 2
+        V3.append(sqrt)
+
+for Elements in Vector4:
+    for numbers in Elements:
+        sqrt = numbers ** 2
+        V4.append(sqrt)
+
+for Elements in Vector5:
+    for numbers in Elements:
+        sqrt = numbers ** 2
+        V5.append(sqrt)
+
+for Elements in Vector6:
+    for numbers in Elements:
+        sqrt = numbers ** 2
+        V6.append(sqrt)
+
+print('Vector 1 =', Vector1)
+print('Squared of All Number in Vector 1 =', V1)
+print('Sum of of All Number in Vector 1 =', sum(V1))
+print('Square root of Vector 1 =', sum(V1) ** (1/2))
+print(" " * 66)
+print('∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼')
+print('Vector 2 =', Vector2)
+print('Squared of All Numbers in Vector 2 =', V2)
+print('Sum of of All Number in Vector 2 =', sum(V2))
+print('Square root of Vector 2 =', sum(V2) ** (1/2))
+print(" " * 66)
+print('∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼')
+print('Vector 3 =', Vector3)
+print('Squared of All Numbers in Vector 3 =', V3)
+print('Sum of of All Number in Vector 3 =', sum(V3))
+print('Square root of Vector 3 =', sum(V3) ** (1/2))
+print(" " * 66)
+print('∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼')
+print('Vector 4 =', Vector4)
+print('Squared of All Numbers in Vector 4 =', V4)
+print('Sum of of All Number in Vector 4 =', sum(V4))
+print('Square root of Vector 4 =', sum(V4) ** (1/2))
+print(" " * 66)
+print('∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼')
+print('Vector 5 =', Vector5)
+print('Squared of All Numbers in Vector 5 =', V5)
+print('Sum of of All Number in Vector 5 =', sum(V5))
+print('Square root of Vector 5 =', sum(V5) ** (1/2))
+print(" " * 66)
+print('∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼∼')
+print('Vector 6 =', Vector6)
+print('Squared of All Numbers in Vector 6 =', V6)
+print('Sum of of All Number in Vector 6 =', sum(V6))
+print('Square root of Vector 6 =', sum(V6) ** (1/2))
+print(" " * 66)
